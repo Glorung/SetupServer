@@ -1,6 +1,17 @@
 #!/bin/sh
 
-# DO NOT EXECUTE IT
+# Script cleaning
+
+sudo apt update && sudo apt upgrade
+
+sudo mkdir -p /srv/http
+
+
+
+# DO NOT EXECUTE BELLOW
+
+
+sudo apt install mysql
 
 sudo apt install tasksel
 sudo tasksel install lamp-server
